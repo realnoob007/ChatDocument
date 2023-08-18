@@ -14,6 +14,8 @@ ChatDocument是一个易于使用的API包装器，用于将文件聊天功能�
 
 ```bash
 git clone https://github.com/realnoob007/ChatDocument.git
+cd ChatDocument
+vim cleanup.py #修改第12行的api_key为你上一步获取的key
 docker build -t my-api .
 docker run -p 3000:3000 my-api
 ```
