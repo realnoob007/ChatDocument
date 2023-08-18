@@ -9,7 +9,7 @@ c = conn.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS libraries
              (id text, last_modified text, document_url text)''')
 
-api_key = "sk-TrVWBuAgrgt7k3mIm8mZ6kroxXeW8xjQgUa9IfBqaKklIuYZ"  # 请替换为你的API密钥
+api_key = "sk-TrVWBuAgrgt7k3mIm8mZ6kroxXeW8xjQgUa9IfBqaKklIabc"  # 请替换为你的API密钥
 
 while True:
     # 每10分钟检查并移除所有last modified时间距离目前北京时间过去>30分钟的知识库中的所有文档
